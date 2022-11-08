@@ -1,0 +1,83 @@
+.app {
+    margin: 20px auto;
+    border: 1px solid #dadde1;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    max-width: 700px;
+}
+
+.city {
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.city li {
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    line-height: 1;
+    list-style: none;
+}
+
+.location {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.location h1 {
+    color: #7c7c7c;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.location p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.icon {
+    font-size: 90px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.temperature {
+    color: rgb(33, 33, 33);
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 2;
+}
+
+.units {
+    position: relative;
+    top: 70px;
+    font-size: 10px;
+    margin: 10px;
+    top: -34px;
+}
+
+.units a {
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.info {
+    text-align: center;
+}
+
+.day {
+    padding-bottom: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
