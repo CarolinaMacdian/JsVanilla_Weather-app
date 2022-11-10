@@ -1,12 +1,13 @@
 /** @format */
-
+body {
+  font-family: "Montserrat", sans-serif;
+}
 .app {
   margin: 20px auto;
   border: 1px solid #dadde1;
-  border-radius: 10px;
-  font-family: "Montserrat", sans-serif;
-  padding: 15px;
-  max-width: 700px;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 600px;
 }
 
 .city {
@@ -40,12 +41,15 @@
   font-weight: 200;
   font-size: 15px;
   line-height: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .icon {
-  font-size: 90px;
+  font-size: 50px;
   text-align: center;
-  margin-right: 10px;
+  margin: 30px;
+  padding: 0;
 }
 
 .temperature {
@@ -70,12 +74,9 @@
   font-weight: 600;
 }
 
-.info {
-  text-align: center;
-}
-
-.day {
-  padding-bottom: 20px;
+.discription {
+  margin: 0;
+  padding: 0;
 }
 
 .text {
@@ -88,4 +89,17 @@
   text-align: center;
   width: fit-content;
   font-size: 10px;
+}
+
+.extraInfo {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.info {
+  text-align: center;
+}
+
+.day {
+  padding-bottom: 20px;
 }
