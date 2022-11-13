@@ -51,6 +51,10 @@ function showWeather(response) {
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed * 3.6
   );
+  document.setAttribute(
+    "src",
+    "https://openweathermap.org/ing/wn/${response.data.weather[0].icon}@2x.png"
+  );
 }
 
 function convertToFahrenheit(event) {
