@@ -4,11 +4,11 @@ body {
 }
 .app {
   margin: 20px auto;
-  border: 1px solid #dadde1;
+  box-shadow: #155263;
   border-radius: 5px;
   padding: 20px;
   max-width: 600px;
-  background-color: #e6e6e6;
+  background-color: #155263;
 }
 
 .city {
@@ -25,20 +25,29 @@ body {
   list-style: none;
 }
 
+.button {
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color: #8a1253;
+  border: none;
+}
+
 .location {
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 .location h1 {
-  color: #7c7c7c;
-  font-weight: 200;
+  color: #c51350;
+  font-weight: 400;
   font-size: 50px;
   line-height: 50px;
   margin: 0;
 }
 
 .location p {
+  color: #ff9a3c;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
@@ -46,15 +55,8 @@ body {
   margin: 0;
 }
 
-.icon {
-  font-size: 50px;
-  text-align: center;
-  margin: 30px;
-  padding: 0;
-}
-
 .temperature {
-  color: rgb(33, 33, 33);
+  color: #ffc93c;
   font-weight: 500;
   font-size: 80px;
   line-height: 2;
@@ -63,6 +65,7 @@ body {
 .grau {
   font-size: 50px;
   vertical-align: text-bottom;
+  color: #ffc93c;
 }
 
 .units {
@@ -71,11 +74,12 @@ body {
   font-size: 10px;
   margin: 10px;
   top: -34px;
+  color: #ffc93c;
 }
 
 .units a {
   text-decoration: none;
-  color: #000;
+  color: #ffc93c;
   font-size: 10px;
   font-weight: 600;
 }
@@ -87,7 +91,7 @@ body {
 }
 
 .active {
-  color: #000;
+  color: #ffc93c;
   cursor: default;
 }
 
@@ -98,17 +102,21 @@ body {
 .discription {
   margin: 0;
   padding: 0;
+  color: #ffc93c;
 }
 
 .extraInfo {
   text-align: left;
   margin-top: 40px;
+  color: #ffc93c;
 }
 
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
   font-size: 16px;
+  color: #c51350;
+  font-weight: 900;
 }
 
 .forecast-text {
@@ -117,16 +125,17 @@ body {
   margin-top: 30px;
 }
 
-.info {
-  text-align: center;
+.forecast-temperature {
+  color: #ffc93c;
+  font-weight: 500;
 }
 
-.day {
-  padding-bottom: 20px;
+.forecast-temperature-max {
+  color: #ff9a3c;
 }
 
 .link {
-  color: #000;
+  color: #ff6f3c;
 }
 
 .source {
