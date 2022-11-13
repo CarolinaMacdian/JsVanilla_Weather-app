@@ -8,6 +8,7 @@ body {
   border-radius: 5px;
   padding: 20px;
   max-width: 600px;
+  background-color: #e6e6e6;
 }
 
 .city {
@@ -102,4 +103,9 @@ body {
 
 .day {
   padding-bottom: 20px;
+}
+
+.grau {
+  font-size: 50px;
+  vertical-align: text-bottom;
 }
