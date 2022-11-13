@@ -60,6 +60,11 @@ body {
   line-height: 2;
 }
 
+.grau {
+  font-size: 50px;
+  vertical-align: text-bottom;
+}
+
 .units {
   position: relative;
   top: 70px;
@@ -72,6 +77,12 @@ body {
   text-decoration: none;
   color: #000;
   font-size: 10px;
+  font-weight: 600;
+}
+
+.bar {
+  font-size: 15px;
+  vertical-align: middle;
   font-weight: 600;
 }
 
@@ -89,21 +100,21 @@ body {
   padding: 0;
 }
 
-.text {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.source {
-  text-align: center;
-  width: fit-content;
-  font-size: 10px;
-}
-
 .extraInfo {
   text-align: left;
   margin-top: 40px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.forecast-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .info {
@@ -114,7 +125,13 @@ body {
   padding-bottom: 20px;
 }
 
-.grau {
-  font-size: 50px;
-  vertical-align: text-bottom;
+.link {
+  color: #000;
+}
+
+.source {
+  text-align: center;
+  width: fit-content;
+  font-size: 10px;
+  font-weight: 500;
 }
