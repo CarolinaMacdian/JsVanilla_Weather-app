@@ -75,6 +75,15 @@ body {
   font-weight: 600;
 }
 
+.active {
+  color: #000;
+  cursor: default;
+}
+
+.active :hover {
+  text-decoration: none;
+}
+
 .discription {
   margin: 0;
   padding: 0;
