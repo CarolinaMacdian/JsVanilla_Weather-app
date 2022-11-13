@@ -51,10 +51,7 @@ function showWeather(response) {
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed * 3.6
   );
-  document.setAttribute(
-    "src",
-    "https://openweathermap.org/ing/wn/${response.data.weather[0].icon}@2x.png"
-  );
+  /**document.querySelector("#icon").innerHTML = response.data.weather.[0].icon;*/
 }
 
 function convertToFahrenheit(event) {
@@ -111,3 +108,11 @@ let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 searchCity("Porto");
+/**
+ * 
+ * function showCurrentIcon(event) {
+  let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
+  let apiUrl = `https://api.openweathermap.org/img/wn/${response.data.weather.[0].icon}@2x.png`;
+  axios.get(apiUrl).then(showWeather);
+}
+ */
