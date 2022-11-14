@@ -1,13 +1,22 @@
 /** @format */
 body {
   font-family: "Montserrat", sans-serif;
+  background: linear-gradient(
+    134.6deg,
+    rgba(158, 150, 252, 0.85) -1%,
+    rgb(211, 133, 176) 16.9%,
+    rgb(249, 116, 146) 43.7%,
+    rgb(255, 158, 136) 66.9%,
+    rgb(254, 228, 172) 94.8%
+  );
+  background-repeat: no-repeat;
 }
 .app {
   margin: 20px auto;
   border-radius: 5px;
   padding: 20px;
   max-width: 600px;
-  background-color: #407088;
+  background-color: #c493cf;
 }
 
 .city {
@@ -27,7 +36,7 @@ body {
 .button {
   padding: 10px 20px;
   font-size: 12px;
-  background-color: #132743;
+  background-color: #ffb192;
   border: none;
 }
 
@@ -38,7 +47,7 @@ body {
 }
 
 .location h1 {
-  color: #f76b8a;
+  color: #fee4ac;
   font-weight: 400;
   font-size: 50px;
   line-height: 50px;
@@ -114,7 +123,7 @@ body {
   margin-top: 20px;
   text-align: center;
   font-size: 16px;
-  color: #f76b8a;
+  color: #fee4ac;
   font-weight: 900;
 }
 
