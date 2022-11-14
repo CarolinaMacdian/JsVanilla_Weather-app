@@ -118,11 +118,11 @@ body {
   font-weight: 900;
 }
 
-/**.forecast-text {
+.forecast-text {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-}**/
+}
 
 .forecast-temperature {
   color: #ffcbcb;

@@ -35,10 +35,10 @@ function formatDay(timestamp) {
 function displayForecast(response) {
   let forcast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
-  let forecastHTML = `<div class= "row">`;
+  let forecastHTML = `<div class= "row forecast-text">`;
   forcast.forEach(function (forecastDay, index) {
     if (index > 0) {
-      if (index < 7) {
+      if (index < 6) {
         forecastHTML =
           forecastHTML +
           `<div class="col-2">
